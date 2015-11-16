@@ -1,0 +1,241 @@
+body {
+    background-color: #222;
+    background-image: url('http://localhost:9080/PHPFeedQuizzer/assets/images/backgroundImg.jpg');
+    margin: 40px;
+    font: 13px/20px normal Helvetica, Arial, sans-serif;
+    color: #4F5155;
+}
+
+a {
+    color: #000;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+h1 {
+    color: #000;
+    background-color: transparent;
+    border-bottom: 1px solid #D0D0D0;
+    font-size: 19px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+    padding: 0px 15px 35px 15px;
+}
+
+h4 {
+    color: #000;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+    padding: 14px 15px 10px 15px;
+}
+
+h5 {
+    color: #000;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+    padding: 14px 15px 10px 15px;
+}
+
+#body {
+    margin: 0 15px 0 15px;
+}
+
+p.footer {
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #D0D0D0;
+    line-height: 5px;
+    padding: 10 10px 15 0px;
+    margin: 20px 0 0 0;
+}
+
+#startContainer{
+    margin: 10px;
+    margin-top: 10%;
+}
+
+#container {
+    background-color: #ffffff;
+    margin: 10px;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.header{
+    background-color: #ffffff;
+    margin: 10px;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.align-center {
+    text-align: center
+}
+
+.answersDiv {
+    align:left;
+    margin-left: 60px;
+}
+
+.countdown{
+    font-size: 20px; 
+    float: right; 
+    padding: 10px;
+    position:fixed;
+    bottom:0px;
+    height:40px;
+    background:#afa;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 10px #ffffff;
+    left: 75.5%;
+}
+
+.logo{
+    width: 180px;
+    height: 75px;
+    padding: 10px;
+}
+
+.retro {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 auto;
+    margin-top: -50px;
+    border: none;
+    border-bottom: 1px solid #D0D0D0;
+    font: normal 20px/normal "Anton", Helvetica, sans-serif;
+    color: rgb(112, 112, 112);
+    text-align: center;
+    text-transform: uppercase;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 0 rgb(238,238,238) , 2px 2px 0 rgb(112,112,112) ;
+}
+
+.submitBtn {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 180px;
+    height: 70px;
+    display: table;
+    cursor: pointer;
+    margin: 0 auto;
+    border: 2px solid rgb(30,205,151);
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    font: normal 32px/70px "Advent Pro", Helvetica, sans-serif;
+    color: rgb(30, 205, 151);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 1px;
+    background: rgba(0,0,0,0);
+    -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+
+.submitBtn:hover {
+  color: rgba(255,255,255,1);
+  background: rgb(30, 205, 151);
+}
+
+.submitBtn:active {
+  border: 2px solid rgba(33,224,163,1);
+  background: rgba(33,224,163,1);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.questionText {
+      display: inline-block;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      border: none;
+      font: normal 17px/1 "Aladin", Helvetica, sans-serif;
+      color: rgba(48,48,48,1);
+      text-align: center;
+      text-transform: normal;
+      -o-text-overflow: clip;
+      text-overflow: clip;
+      white-space: pre;
+      text-shadow: 0px 0px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+}
+
+.answersText {
+      display: inline-block;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      border: none;
+      font: normal 13px/1 "Aladin", Helvetica, sans-serif;
+      color: rgba(48,48,48,1);
+      text-align: center;
+      text-transform: normal;
+      -o-text-overflow: clip;
+      text-overflow: clip;
+      white-space: pre;
+      text-shadow: 0px 0px 0 rgba(140,140,140,0.6) , 0px 0px 1px rgba(0,0,0,0.67) ;
+}
+
+.finalScoreText {
+      display: inline-block;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      border: none;
+      font: normal 20px/1 "Aladin", Helvetica, sans-serif;
+      color: rgba(48,48,48,1);
+      text-align: center;
+      text-transform: normal;
+      -o-text-overflow: clip;
+      text-overflow: clip;
+      white-space: pre;
+      text-shadow: 0px 0px 0 rgba(140,140,140,0.6) , 0px 0px 1px rgba(0,0,0,0.67) ;
+}
+
+.expectedAnswerText{
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 14px/1 "Aladin", Helvetica, sans-serif;
+    color: #3333ff;
+    text-align: center;
+    text-transform: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0px 0px 0 rgba(140,140,140,0.6) , 0px 0px 1px rgba(0,0,0,0.67) ;
+}
+
+.hide{
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.wrongimg{
+    width:30px;
+    height: 30px;
+    float: Left;
+}
+
+#incompleteQuiz, #scoreQuiz{
+    margin-top: 5px;
+}
